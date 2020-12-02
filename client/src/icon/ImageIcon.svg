@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#1E222A"/>
+            <stop offset="100%" stop-color="#39414E"/>
+        </linearGradient>
+        <radialGradient id="b" cx="49.456%" cy="42.823%" r="100%" fx="49.456%" fy="42.823%" gradientTransform="matrix(0 1 -.54718 0 .729 -.066)">
+            <stop offset="0%" stop-color="#000307"/>
+            <stop offset="100%" stop-color="#000103" stop-opacity=".74"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-431 -363)">
+        <path fill="url(#a)" d="M0 0h1650v925H0z"/>
+        <text fill="#FFF" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(38 325)">
+            <tspan x="0" y="15">Asset</tspan>
+        </text>
+        <g transform="translate(38 358)">
+            <rect width="579" height="37" x=".5" y=".5" stroke="#CCC" rx="4"/>
+            <text fill="#D4D6DB" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+                <tspan x="16" y="24">LUCKY20</tspan>
+            </text>
+        </g>
+        <path fill="url(#b)" fill-opacity=".5" d="M1 0h1650v925H1z"/>
+        <rect width="840" height="508" fill="#2B303C" rx="2" transform="translate(405 177)"/>
+        <rect width="815" height="176" x="418" y="344" fill="#1F1F2C" rx="2"/>
+        <g fill="#EAF3FF" fill-rule="nonzero" transform="translate(431 363)">
+            <path d="M15.74 0H1.26C.564 0 0 .683 0 1.524v12.952C0 15.317.565 16 1.26 16h14.48c.696 0 1.26-.683 1.26-1.524V1.524C17 .684 16.436 0 15.74 0zm-2.763 9.02c-.247-.308-.648-.308-.895 0l-1.005 1.245c-.248.307-.648.307-.896 0L6.642 5.877c-.247-.308-.648-.308-.896 0L.81 11.999V1h14.57l.001 11-2.404-2.98z"/>
+            <circle cx="12.5" cy="4.5" r="1.5"/>
+        </g>
+    </g>
+</svg>

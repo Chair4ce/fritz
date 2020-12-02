@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="20" viewBox="0 0 16 20">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#1E222A"/>
+            <stop offset="100%" stop-color="#39414E"/>
+        </linearGradient>
+        <rect id="c" width="861" height="168" y="1" rx="2"/>
+        <filter id="b" width="101.6%" height="108.3%" x="-.6%" y="-3%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+        <linearGradient id="d" x1="96.067%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#364054"/>
+            <stop offset="100%" stop-color="#191E2A"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-1524 -673)">
+        <g fill="#00818C" fill-rule="nonzero">
+            <path d="M1526 673h12v2h-12zM1526 690h12v2h-12zM1537.143 676h-10.286v2.117l4.075 4.383-4.075 4.383V689h10.286v-2.117l-4.075-4.383 4.075-4.383z"/>
+        </g>
+    </g>
+</svg>

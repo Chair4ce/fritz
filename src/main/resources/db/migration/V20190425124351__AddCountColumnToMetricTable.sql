@@ -1,0 +1,1 @@
+ALTER TABLE metric ADD count INT(11);

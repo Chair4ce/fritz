@@ -1,0 +1,14 @@
+---
+applications:
+- name: fritz
+  buildpacks:
+    - https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1GB
+  stack: cflinuxfs3
+  instances: 1
+  path: target/fritz-0.0.1-SNAPSHOT.jar
+  environment:
+    - FRITZ_DB_URL=jdbc:mysql://localhost:3306/fritzdev?useSSL=false
+    - FRITZ_DB_USERNAME=fritz
+  services:
+    - fritz-db
